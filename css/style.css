@@ -1,15 +1,37 @@
+body {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+div {
+  color: white;
+}
+
 main {
-  width: 90%;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 1px solid black;
   background-color: hsl(244, 38%, 16%);
+  border-radius: 4px;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 header {
-  float: right;
   width: 50%;
-  height: auto;
   background-color: blueviolet;
+  height: 100%;
+}
+
+section {
+  width: 50%;
+  height: 100%;
 }
 
 img {
@@ -20,8 +42,8 @@ strong {
   color: hsl(277, 64%, 61%);
 }
 
-section {
-  padding: 20px;
+h1, p, ul {
+  padding: 15px;
 }
 
 h1 {
@@ -38,4 +60,9 @@ p, li{
 
 ul {
   display: flex;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
 }

@@ -9,7 +9,7 @@ html, body, div, span, h1, h2, h3, p, a, img, header, footer, nav, section, ul, 
 img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 ul, ol {
